@@ -1,0 +1,49 @@
+/* applies to anything of class "example-class-selector" */
+body {
+  padding-top: 70px;
+  background-color: #f7f7f7;
+}
+.col-md-4, .col-md-8 {
+     position: relative;
+     min-height: 1px;
+     padding-right: 15px;
+     padding-left: 15;
+}
+.example-class-selector {
+	margin-top: 2em;
+}
+
+/* applies to any <p> descendants of an element of class "example-class-selector" */
+.example-class-selector p {
+	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
+	color: #CC00AA;
+}
+
+.jumbotron {
+	position: relative;
+	background: none;
+}
+
+.jumbotron:after {
+     content:"";
+     background: url("../images/pinup-hi-res-hd-wallpaper5.jpg");
+     opacity: 0.3;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     position: absolute;
+     z-index: -1;	
+}
+
+.jumbotron p {
+     color: #6e6e6e;
+}
+
+.img {
+     height: 20;
+}
+
+.project a {
+     text-align: center;
+}

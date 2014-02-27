@@ -1,0 +1,14 @@
+[
+	{
+		"name": "Alexander Fosseidbraaten",
+		"email": "alex.fosseidbraten@gmail.com",
+		"password": "asdf123",
+		"type": 1
+	},
+	{
+		"name": "Thomas Dagsvik",
+		"email": "thomasedagsvik@gmail.com",
+		"password": "asdf456",
+		"type": 0
+	}
+]

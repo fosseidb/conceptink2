@@ -1,0 +1,34 @@
+{
+	"artists": [
+		{
+			"id": "01",
+			"name": "Kat von D",
+			"age": "31",
+			"location": "Los Angeles",
+			"description": "Has awesome pet mice",
+			"rating": "images/sr035.png",
+			"summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+			"imageUrl": "/images/kat-von-d-pinup.jpg"
+		},
+		{
+			"id": "02",
+			"name": "Mojo",
+			"age": "29",
+			"location": "San Diego",
+			"description": "Great at sketching",
+			"rating": "images/sr035.png",
+			"summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+			"imageUrl": "/images/moho.jpg"
+		},
+		{
+			"id": "03",
+			"name": "Alejandro Derp",
+			"age": "22",
+			"location": "Oslo",
+			"description": "Super cool. Does good Nordic stuff.",
+			"rating": "images/sr035.png",
+			"summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+			"imageUrl": "/images/katVD.jpg"
+		}
+	]
+}

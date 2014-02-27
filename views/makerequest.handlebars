@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com-->
+<!-- Last Published: Thu Feb 13 2014 03:13:46 GMT+0000 (UTC) -->
+<html data-wf-site="52f06826a8b031ee5c0003d8">
+<head>
+  <meta charset="utf-8">
+  <title>Conceptink - Make Request</title>
+  <meta name="description" content="ConceptInk is a page meant for both tattoo artists and clients. Are you looking to get a tattoo but don't know what you want? Get inspired or post a request.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/webflow.css">
+  <link rel="stylesheet" type="text/css" href="css/conceptink.webflow.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ["Bitter:400,700","Montserrat:400,700","Changa One:400","Open Sans:300,400,600,700,800","Droid Sans:400,700","Balthazar:regular"]
+      }
+    });
+  </script>
+  <script>
+    if (/mobile/i.test(navigator.userAgent)) document.documentElement.className += ' w-mobile';
+  </script>
+  <link rel="shortcut icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/52f06826a8b031ee5c0003d8/52f333d35d8eed2b6b000855_favicon.png">
+  <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
+</head>
+<body>
+  <div class="spacefiller regular"></div>
+  <h1 class="newreq-heading">New Request</h1>
+  <div class="requestformborder">
+    <div class="requestformsection"><a class="cancelbutton" href="./yourrequests">Cancel</a>
+      <div class="w-form">
+        <form id="new-request-form" role="form" method="get" action="/request">
+          <input id="title" class="w-input titleinput" type="text" placeholder="Request title" name="title" ></input>
+          <input id="keywords" class="w-input" type="text" placeholder="Keywords" name="keywords"></input>
+          <textarea id="description" class="w-input" type="text" placeholder="Description" name="description"></textarea>
+          <select id="deadline" class="w-select deadlinedropdown" name="dropdown" placeholder="Deadline">
+            <option value="1w" id="deadline">1 week</option>
+            <option value="2w" id="deadline">2 weeks</option>
+            <option value="1m" id="deadline">1 month</option>
+          </select>
+          <input id="imageURL" class="w-input titleinput" type="text" placeholder="concept URL" name="imageURL" data-name="imageURL"></input>
+          <input id="newRequestSubmitButton" class="w-button submitrequest" type="submit" value="Submit" data-wait="Please wait..."></input>
+        </form>
+        <div class="w-form-done">
+          <p>Thank you! Your submission has been received!</p>
+        </div>
+        <div class="w-form-fail">
+          <p>Oops! Something went wrong while submitting the form :(</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="headersection">
+    <a class="w-inline-block homebtn" href="./clienthome"></a>
+    <a class="w-inline-block searchbtn" href="./artist-roster-skull"></a>
+    <a class="w-inline-block requestsbtn" href="./yourrequests"></a>
+    <a class="w-inline-block homelogobtn" href="./clienthome"></a>
+    <a class="w-inline-block logoutbtn" href="./"></a>
+    <a class="w-inline-block myprofilebtn" href="./clientprofile"></a>
+  </div>
+  <ul class="w-list-unstyled some">
+    <li class="sociallist">
+      <div class="w-clearfix base">
+        <a class="w-inline-block twitter" href="http://www.twitter.com" target="_blank"></a>
+        <a class="w-inline-block facebookblock" href="http://www.facebook.com" target="_blank"></a>
+        <a class="w-inline-block emailblock" href="mailto:alex.fosseidbraaten@gmail.com?subject=ConceptInk%20Contact"></a>
+        <a class="w-inline-block google-block" href="http://google.com" target="_blank"></a>
+        <div class="copyright">© 2014 ConceptInk Ltd.</div>
+      </div>
+    </li>
+  </ul>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/webflow.js"></script>
+  <script src="/js/introHCI.js"></script>
+</body>
+</html>
+  

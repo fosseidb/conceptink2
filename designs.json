@@ -1,0 +1,26 @@
+{
+    "designs": [
+        {
+    "id": "01",
+    "artistid": "01",
+    "clientid": "01",
+    "title": "Request: I want a butterfly!",
+    "keywords": "A little desctiption goes in here, cuz its just a desctiption.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+    "deadline": "1w",
+    "price": 50,
+    "imageURL": "/images/butterfly_concept.png"
+    },
+    {
+    "id": "02",
+    "artistid": "02",
+    "clientid": "01",
+    "title": "Request: I want a Viking!",
+    "keywords": "A little desctiption goes in here, cuz its just a desctiption.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+    "deadline": "1m",
+    "price": 400,
+    "imageURL": "/images/viking.jpg"
+    }
+  ]
+}
