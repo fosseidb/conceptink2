@@ -7,9 +7,9 @@
   <title>Conceptink - Article</title>
   <meta name="description" content="ConceptInk is a page meant for both tattoo artists and clients. Are you looking to get a tattoo but don't know what you want? Get inspired or post a request.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/webflow.css">
-  <link rel="stylesheet" type="text/css" href="css/conceptink.webflow.css">
+  <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="/css/webflow.css">
+  <link rel="stylesheet" type="text/css" href="/css/conceptink.webflow.css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   <script>
     WebFont.load({
@@ -27,21 +27,19 @@
 <body>
   <div class="spacefiller regular"></div>
   <div class="viewdesigncontainer">
-    <h3 class="designheader articleheader">Hot Girl has Tattoos!</h3>
+    <h3 class="designheader articleheader">{{title}}</h3>
     <div class="w-container viewdesignsection articlewindow">
-      <img class="vewdesignpicture articlepicture" src="images/sexy-tattoo-girls10.jpg" alt="52f43abebc0395d971000470_sexy-tattoo-girls10.jpg">
-      <p class="aboutdesign-text articletxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.&nbsp;Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.&nbsp;</p>
+      <img class="vewdesignpicture articlepicture" src="{{imageUrl}}">
+      <p class="aboutdesign-text articletxt">{{summary}}</p>
     </div>
   </div>
   <div class="headersection">
-    <a class="w-inline-block homebtn" href="./clienthome"></a>
-    <a class="w-inline-block searchbtn" href="./artist-roster-skull"></a>
-    <a class="w-inline-block requestsbtn" href="./yourrequests"></a>
-    <a class="w-inline-block homelogobtn" href="./clienthome"></a>
-    <a class="w-inline-block logoutbtn" href="./"></a>
-    <a class="w-inline-block myprofilebtn" href="./clientprofile"></a>
+    <a class="w-inline-block homebtn" href="../clienthome"></a>
+    <a class="w-inline-block searchbtn" href="../artist-roster-skull"></a>
+    <a class="w-inline-block requestsbtn" href="../yourrequests"></a>
+    <a class="w-inline-block homelogobtn" href="../clienthome"></a>
+    <a class="w-inline-block logoutbtn" href="../"></a>
+    <a class="w-inline-block myprofilebtn" href="../clientprofile"></a>
   </div>
   <ul class="w-list-unstyled some">
     <li class="sociallist">

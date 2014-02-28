@@ -4,24 +4,21 @@
     "id": "01",
     "title": "Epic Convention in London!!",
     "description": "A little desctiption goes in here, cuz its just a desctiption.",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-    "url": "story1",
+    "summary": "In this course, you will learn how to design technologies that bring people joy, rather than frustration. To do this, you'll learn techniques for rapidly prototyping and evaluating multiple interface alternatives — and why rapid prototyping and comparative evaluation are essential to excellent interaction design. You'll learn how to conduct fieldwork with people to help generate design ideas. You'll learn how to make paper prototypes and low-fidelity mock-ups that are interactive — and how to use these designs to get feedback from teammates, clients, and users. You'll learn principles of visual design, perception and cognition so that you can effectively organize and present information with your interfaces. And you'll learn how to perform and analyze controlled experiments online.",
     "imageUrl": "/images/convention01.jpg"
     },
     {
     "id": "02",
     "title": "Hot girl gets sexy tattoo",
     "description": "A little desctiption goes in here, cuz its just a desctiption.",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-    "url": "story2",
+    "summary": "In this course, you will learn how to design technologies that bring people joy, rather than frustration. To do this, you'll learn techniques for rapidly prototyping and evaluating multiple interface alternatives — and why rapid prototyping and comparative evaluation are essential to excellent interaction design. You'll learn how to conduct fieldwork with people to help generate design ideas. You'll learn how to make paper prototypes and low-fidelity mock-ups that are interactive — and how to use these designs to get feedback from teammates, clients, and users. You'll learn principles of visual design, perception and cognition so that you can effectively organize and present information with your interfaces. And you'll learn how to perform and analyze controlled experiments online.",
     "imageUrl": "/images/sexy-tattoo-girls10.jpg"
     },
     {
     "id": "03",
-    "title": "Tatto News 03",
+    "title": "Guy with tattoo gets lots of attention.",
     "description": "A little desctiption goes in here, cuz its just a desctiption.",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-    "url": "/story3",
+    "summary": "In this course, you will learn how to design technologies that bring people joy, rather than frustration. To do this, you'll learn techniques for rapidly prototyping and evaluating multiple interface alternatives — and why rapid prototyping and comparative evaluation are essential to excellent interaction design. You'll learn how to conduct fieldwork with people to help generate design ideas. You'll learn how to make paper prototypes and low-fidelity mock-ups that are interactive — and how to use these designs to get feedback from teammates, clients, and users. You'll learn principles of visual design, perception and cognition so that you can effectively organize and present information with your interfaces. And you'll learn how to perform and analyze controlled experiments online.",
     "imageUrl": "/images/alexmedhaaven.jpg"
     }
   ]
