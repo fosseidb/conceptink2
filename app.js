@@ -68,6 +68,7 @@ app.get('/yourrequests', yourrequests.viewRequest);
 app.get('/artistroster', artistroster.viewArtists);
 app.get('/artist/:artistid', artist.viewArtist);
 app.get('/request/:requestid', request.viewRequest);
+app.get('/request', request.addRequest);
 
 app.get('/artist-roster-skull', artistRosterSkull.viewArtistRosterSkull);
 app.get('/design-roster-skull', designRosterSkull.viewDesignRosterSkull);

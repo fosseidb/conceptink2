@@ -84,18 +84,18 @@ function initializePage() {
 		var title = $('#new-request-form #title').val();
 		var keywords = $('#new-request-form #keywords').val();
 		var deadline = $('#new-request-form #deadline').val();
+		var imageUrl = $('#new-request-form #imageUrl').val();
 		//var type = $('#new-request-form #type').val();
 		var json = {
 			//'user': user,
 			'title': name,
 			'keywords': email,
 			'deadline':  password,
-			'type': type
+			'type': type,
+			'imageurl': imageUrl
 		};
 		console.log(json);
-		// $.post('/project/new', json, function() {
-		// 	window.location.href = './clienthome'; // reload the page
-		// });
+		$.post('/request/', json, request.addRequest);
 	});
 
 	$('#signinSubmitButton').click(function(e) {

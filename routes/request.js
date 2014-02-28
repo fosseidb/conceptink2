@@ -5,20 +5,22 @@ exports.addRequest = function(req, res) {
 
 	var title = req.query.title;
 	var description = req.query.description;
-	var imageURL= req.query.imageURL;
+	var imageUrl= req.query.imageUrl;
 	var keywords =req.query.keywords;
 	var deadline=req.query.dropdown;
+	var id = data.requests.length+1;
 
 	var nRequest = {
+		'id': id,
 		'title': title,
 		'keywords': keywords,
 		'deadline': deadline,
 		'description': description,
-		'imageURL': imageURL
+		'imageUrl': imageUrl
 	};
-	res.render('request', nRequest);
 	console.log(nRequest);
 	data["requests"].push(nRequest);
+	res.render('request', nRequest);
 
 }
 
@@ -28,7 +30,7 @@ exports.viewRequest = function(req, res) {
 	var target = req.params.requestid;
 	console.log(requests);
 	console.log(target);
-
+	console.log("vieRequest was run.")
 	var index;
 
 	for (var i=0; i< requests.length; i++)

@@ -3,7 +3,9 @@ var data = require('../requests.json');
 
 exports.viewRequest = function(req, res){
 	// controller code goes here
-  data.haverequest = true;
+  
+  if (data.requests.length > 0) {data.haverequest = true;}
+  else data.haverequest = false;
   res.render('yourrequests', data);
 }
 

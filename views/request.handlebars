@@ -28,14 +28,15 @@
   <div class="spacefiller regular"></div>
   <div class="w-clearfix viewdesigncontainer"><a class="artistlink design clientlink" href="./clientprofile">{{artistid}}</a>
     <h1 class="designheader requestheader">{{title}}</h1>
-    <div class="w-clearfix viewdesignsection designwindow">
+    <div class="w-clearfix viewdesignsection artistwindow">
       <div class="priceblock requests">
         <div class="price">Price:</div>
         <img class="dollars" src="{{price}}" width="35">
       </div>
       <div class="descriptionheader price">Description:</div>
-      <div class="aboutdesign-text requesttext">{{description}}</div>
-      <div class="w-slider w-clearfix slidercontainer inspiration" data-animation="slide" data-duration="500"
+      <div class="aboutdesign-text requesttext">{{description}}
+      <img class="vewdesignpicture profilepicture" src="{{imageUrl}}"></div>
+      <!-- <div class="w-slider w-clearfix slidercontainer inspiration" data-animation="slide" data-duration="500"
       data-infinite="1">
         <div class="w-slider-mask portcontainer inspr">
           <div class="w-slide portfolioslide p2">
@@ -57,7 +58,7 @@
         <div class="w-slider-arrow-right arrowrightcontainer">
           <div class="w-icon-slider-right arrowright"></div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
   <hr>
@@ -65,11 +66,10 @@
   <div class="feedcontainer request-respones">
     <ul class="w-list-unstyled newsfeed">
       <li class="w-clearfix articlelistitem">
-        <a class="w-inline-block articleimage r1" href="./response" id="intartcl">
+        <a class="w-inline-block articleimage r1" href="../response" id="intartcl">
           <div class="articlenametxt a1">Kat von D</div>
         </a>
       </li>
-      <li class="articlelistitem"></li>
     </ul>
   </div><a class="delete" href="./your-requests">Delete Request</a>
   <div class="headersection">
