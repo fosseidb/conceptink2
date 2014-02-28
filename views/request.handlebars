@@ -65,13 +65,17 @@
   <h1 class="designheader requestheader responses">Responses</h1>
   <div class="feedcontainer request-respones">
     <ul class="w-list-unstyled newsfeed">
+      {{#if hasResponse}}
       <li class="w-clearfix articlelistitem">
         <a class="w-inline-block articleimage r1" href="../response" id="intartcl">
           <div class="articlenametxt a1">Kat von D</div>
         </a>
       </li>
+      {{else}}
+      <h4 class="h4norequests">You currently have received no responses.</h4>
+      {{/if}}
     </ul>
-  </div><a class="delete" href="./your-requests">Delete Request</a>
+  </div><a class="delete" href="../yourrequests">Delete Request</a>
   <div class="headersection">
     <a class="w-inline-block homebtn" href="../clienthome"></a>
     <a class="w-inline-block searchbtn" href="../artist-roster-skull"></a>
