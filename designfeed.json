@@ -8,7 +8,7 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
     "deadline": "1w",
     "price": "../images/dollarRating.png",
-    "rating": "../images/starrating.png",
+    "rating": "../images/2.png",
     "imageUrl": "../images/kvd1.jpg"
     },
     {
@@ -19,7 +19,7 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
     "deadline": "1m",
     "price": "../images/dollarRating.png",
-    "rating": "../images/starrating.png",
+    "rating": "../images/3.5.png",
     "imageUrl": "../images/yggdrasil.jpg"
     },
         {
@@ -30,7 +30,7 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
     "deadline": "1m",
     "price": "../images/dollarRating.png",
-    "rating": "../images/starrating.png",
+    "rating": "../images/5.png",
     "imageUrl": "../images/convention01.jpg"
     },
     {
@@ -41,7 +41,7 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
     "deadline": "1m",
     "price": "../images/dollarRating.png",
-    "rating": "../images/starrating.png",
+    "rating": "../images/4.png",
     "imageUrl": "../images/viking.jpg"
     },
         {
@@ -52,7 +52,7 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
     "deadline": "1m",
     "price": "../images/dollarRating.png",
-    "rating": "../images/starrating.png",
+    "rating": "../images/2.5.png",
     "imageUrl": "../images/sugar-skull-1.jpg"
     }
   ]
