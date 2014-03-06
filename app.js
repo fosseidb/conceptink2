@@ -60,7 +60,8 @@ if ('development' == app.get('env')) {
 
 // Add routes here
 app.get('/', index.view);
-app.get('/clienthome', clienthome.viewProject);
+app.get('/clienthome/:userid', clienthome.viewProject);
+app.get('/clienthome', clienthome.addUser);
 app.get('/newsfeed', newsfeed.viewFeed);
 app.get('/article/:articleid', article.viewArticle);
 app.get('/makerequest', makerequest.makeRequest);
@@ -72,6 +73,7 @@ app.get('/request', request.addRequest);
 
 app.get('/artist-roster-skull', artistRosterSkull.viewArtistRosterSkull);
 app.get('/design-roster-skull', designRosterSkull.viewDesignRosterSkull);
+app.get('/design-roster-skullFeed', designRosterSkull.viewDesignRosterSkullFeed);
 app.get('/signin', signin.viewSignin);
 app.get('/template', template.viewTemplate);
 app.get('/response', response.viewResponse);

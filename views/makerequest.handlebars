@@ -35,11 +35,13 @@
           <input id="keywords" class="w-input" type="text" placeholder="Keywords" name="keywords"></input>
           <textarea id="description" class="w-input" type="text" placeholder="Description" name="description"></textarea>
           <select id="deadline" class="w-select deadlinedropdown" name="dropdown" placeholder="Deadline">
+            <option value="na" id="Deadline"> No deadline</option>
             <option value="1w" id="deadline">1 week</option>
             <option value="2w" id="deadline">2 weeks</option>
             <option value="1m" id="deadline">1 month</option>
           </select>
-          <input id="imageUrl" class="w-input titleinput" type="text" placeholder="concept Url" name="imageUrl" data-name="imageUrl"></input>
+          <p class="articletext"> If you have an idea of what you want, host a concept piece of it here:</p>
+          <input id="imageUrl" class="w-input titleinput" type="text" placeholder="Image url" name="imageUrl" data-name="imageUrl"></input>
           <input id="newRequestSubmitButton" class="w-button submitrequest" type="submit" value="Submit" data-wait="Please wait..."></input>
         </form>
         <div class="w-form-done">
@@ -73,6 +75,16 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
   <script src="/js/introHCI.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48433853-2', { 'cookieDomain': 'none' });
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>
   

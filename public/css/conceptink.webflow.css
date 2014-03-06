@@ -699,8 +699,9 @@ p {
     position: relative;
     top: 7px;
     margin-top: 5px;
-    margin-right: 5px;
-    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgba(255, 255, 255, 0.31);
   }
   .artistimage2 {
     width: 140px;
@@ -718,7 +719,7 @@ p {
   .articletext {
     display: block;
     font-family: Bitter, serif;
-    color: #9c9088;
+    color: white;
     text-decoration: none;
   }
   .emptysection {
@@ -977,60 +978,44 @@ p {
     overflow-x: visible;
     overflow-y: visible;
     width: 100%;
-    height: 120px;
+    height: 20px;
     margin-left: 5px;
     padding-right: 0px;
     float: right;
   }
   .arrowlefty {
     position: static;
-    left: 38%;
-    top: 0px;
-    bottom: 0px;
+    margin-left: 130px;
+    padding-top: 6%;
     height: 60px;
-    margin-left: 8px;
-    padding-top: 20px;
     background-color: rgba(0, 0, 0, 0.70);
     font-size: 20px;
   }
-  .arrowlefty.inspr {
-    position: relative;
-    left: -12%;
-    top: 29px;
+  .arrowright {
+    position: static;
+    margin-left: 300px;
+    height: 60px;
+    padding-top: 6%;
+    background-color: rgba(0, 0, 0, 0.70);
+    font-size: 20px;
   }
   .leftarrowcontainer {
     position: static;
-    left: -2px;
+    margin-top: -120px;
     display: inline-block;
     width: 40px;
-    height: 120px;
-    margin-top: -120px;
-    margin-left: 0px;
+    height: 60px;
     float: left;
     clear: none;
   }
-  .arrowright {
-    position: relative;
-    left: 14px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    display: inline-block;
-    height: 60px;
-    padding-top: 47%;
-    float: none;
-    clear: none;
-    background-color: rgba(0, 0, 0, 0.70);
-    font-size: 20px;
-  }
   .arrowrightcontainer {
-    position: relative;
-    right: 10px;
+    position: static;
+    display: inline-block;
+    margin-top: -120px;
     width: 40px;
-    height: 120px;
-    margin-top: -121px;
-    margin-left: 159px;
+    height: 60px;
     float: right;
+    clear: none;
   }
   .slidenav {
     position: relative;
@@ -1117,29 +1102,15 @@ p {
   }
   .artist-section {
     position: relative;
-    top: 9px;
     width: 100%;
-    height: 176px;
-    background-color: transparent;
+    height: 157px;
+    margin-bottom: 30px;
     -webkit-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
     color: white;
   }
-  .artist-section.katvd {
-    position: static;
-    left: 0px;
-    top: 59px;
-    bottom: 0px;
-    display: block;
-    width: 100%;
-  }
-  .artist-section.mojo {
-    position: relative;
-    left: 0px;
-    top: 0px;
-    width: auto;
-  }
+
   .artistprofpic {
     left: 1%;
     top: 0px;
@@ -1152,77 +1123,41 @@ p {
   }
   .artistlink {
     position: relative;
-    left: 5px;
-    top: 2px;
+    left: 2%;
+    top: 100%;
+    font-family: Bitter, serif;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .artistlinkdesign {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    left: auto;
     font-family: Bitter, serif;
     color: white;
     font-size: 16px;
     text-decoration: none;
-  }
-  .artistlink.design {
-    position: relative;
-    left: 23px;
-    top: 44px;
-    bottom: -11px;
     display: inline-block;
-    float: left;
-    font-family:'Helvetica Neue';
   }
-  .artistlink.design.clientlink {
-    top: 49px;
-    margin-top: -4px;
-    margin-bottom: 0px;
-    padding-top: 0px;
-  }
+
   .starrating {
-    position: relative;
-    left: 63px;
+    position: absolute;
+    margin-right: 5%;
     top: 155px;
     right: 0px;
     bottom: -4px;
     display: inline-block;
-    width: 100;
-    height: 22%;
-    background-color: rgba(0, 0, 0, 0.96);
-    background-size: cover;
-
-
-  }
-  .starrating:focus {
-    position: relative;
-    left: -18%;
-    top: 163px;
-    bottom: -4px;
-    display: inline-block;
-    width: auto;
-    height: 22%;
-    background-color: rgba(0, 0, 0, 0.96);
-  }
-  .starrating.katvd {
-    left: 140px;
-    top: 153px;
-    right: 0px;
-    bottom: -4px;
-  }
-  .starrating.katvd:focus {
-    left: 16px;
-    top: 164px;
-    width: auto;
-    height: 20%;
-  }
-  .starrating.mojo {
-    left: 178px;
-    top: 153px;
-    bottom: 153px;
-  }
-  .starrating.design {
-    background-image: url('../images/starrating.png');
+    height: 15%;
     background-size: cover;
   }
+
   .artist-window {
     position: static;
     height: 130px;
     padding-top: 5px;
+    margin-bottom: 20px;
     background-color: rgba(255, 255, 255, 0.32);
   }
   .artist-window.inspirationdesigns {
@@ -1230,21 +1165,12 @@ p {
     padding-right: 0px;
   }
   .citylink {
-    position: relative;
-    left: -29px;
-    top: 156px;
+    left: 100px;
+    top: 157px;
     font-family: Bitter, serif;
     color: white;
     font-size: 14px;
     text-decoration: none;
-  }
-  .citylink.los-angeles {
-    left: 55px;
-    top: 157px;
-  }
-  .citylink.san-diego {
-    left: -6px;
-    top: 156px;
   }
   .searchcontainer {
     position: fixed;
@@ -1424,7 +1350,7 @@ p {
     width: 96%;
     height: 33px;
     margin-top: 1px;
-    margin-bottom: 20px;
+    
     padding-top: 5px;
     border: 1px solid white;
     border-radius: 5px;
@@ -1457,8 +1383,10 @@ p {
     display: inline-block;
     margin-top: 7px;
     margin-bottom: 3px;
+    padding-left: 10px;
     font-family:'Helvetica Neue';
     font-weight: 400;
+    color: white;
   }
   .designheader.articleheader {
     position: relative;
@@ -1485,12 +1413,7 @@ p {
     margin-bottom: 0px;
     text-indent: 18px;
   }
-  .designheader.viking {
-    left: 0px;
-    top: 0px;
-    bottom: auto;
-    display: block;
-  }
+
   .designheader.yggdrasil {
     left: 0px;
     top: 0px;
@@ -1500,25 +1423,27 @@ p {
     position: relative;
     top: auto;
     width: auto;
-    height: 280px;
+    height: auto;
+    margin-top: 10px;
     margin-bottom: 16px;
-    border-radius: 0px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.31);
   }
   .viewdesignsection.articlewindow {
     position: relative;
-    height: auto;
-    margin-bottom: 19px;
-    padding-top: 1px;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    padding-top: 10px;
   }
   .viewdesignsection.designwindow {
     position: relative;
-    top: 21px;
-    bottom: 0px;
-    height: 300px;
-    margin-top: 49px;
-    margin-bottom: 41px;
-    padding-top: 29px;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    padding-top: 10px;
   }
   .viewdesignsection.designwindow.response {
     height: 212px;
@@ -1530,15 +1455,14 @@ p {
     padding-top: 18px;
     padding-bottom: 10px;
   }
-  .vewdesignpicture {
-    width: 151px;
-    margin-top: 23px;
-    margin-right: 11px;
+  .viewdesignpicture {
+    width: 45%  ;
+    margin-right: 10px;
     margin-left: 10px;
-    float: left;
+    float: left; 
     border: 1px solid white;
   }
-  .vewdesignpicture.articlepicture {
+  .viewdesignpicture.articlepicture {
     overflow-x: visible;
     overflow-y: visible;
     margin-right: 12px;
@@ -1547,18 +1471,10 @@ p {
     float: left;
     clear: none;
   }
-  .vewdesignpicture.profilepicture {
+  .viewdesignpicture.profilepicture {
     margin-top: 1px;
   }
-  .vewdesignpicture.design {
-    position: relative;
-    left: 0px;
-    top: 0px;
-    bottom: 0px;
-    margin-top: 0px;
-    margin-left: 10px;
-    float: left;
-  }
+
   .price {
     position: static;
     top: -82px;
@@ -1619,16 +1535,10 @@ p {
     padding-left: 10px;
     float: left;
     font-family:'Droid Sans', sans-serif;
-    color: white;
+    color: 000000;
     list-style-type: disc;
   }
-  .aboutdesign-text.articletxt {
-    position: static;
-    top: 0px;
-    padding-top: 24px;
-    float: none;
-    clear: none;
-  }
+  
   .aboutdesign-text.aboutartist {
     position: static;
     top: -3px;
@@ -1648,13 +1558,10 @@ p {
     top: 35px;
   }
   .aboutdesign-text.design {
-    position: relative;
+    position: static;
     left: 2px;
-    top: 21px;
-    float: none;
-  }
-  .aboutdesign-text.design.d {
     top: 35px;
+    float: none;
   }
   .list {
     position: relative;
@@ -1756,12 +1663,14 @@ p {
     bottom: 12px;
     display: block;
     padding: 5px 15px 2px 0px;
+    margin-left: 7px;
     background-color: rgba(0, 0, 0, 0.70);
     font-family:'Open Sans', sans-serif;
     color: white;
     font-size: 22px;
     letter-spacing: 0px;
     text-indent: 5px;
+    max-width: 270px;
   }
   .portfolioslider-viewartist {
     position: relative;
@@ -1833,7 +1742,7 @@ p {
   .newsfeed {
     position: relative;
     top: 0px;
-    height: 90px;
+    padding-bottom: 10px;
   }
   .requests {
     position: relative;
@@ -1859,7 +1768,7 @@ p {
     margin-top: 0px;
   }
   .feedcontainer.request-respones {
-    background-color: rgba(255, 255, 255, 0.31);
+
   }
   .spacefiller {
     height: 207px;
@@ -1880,7 +1789,7 @@ p {
   .descriptionheader.design {
     position: absolute;
     left: 172px;
-    top: 52px;
+    top: 66px;
     right: 0px;
     bottom: auto;
     display: inline-block;

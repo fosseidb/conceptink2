@@ -26,11 +26,11 @@
 </head>
 <body>
   <div class="spacefiller regular"></div>
-  <div class="viewdesigncontainer">
-    <h3 class="designheader articleheader">{{title}}</h3>
-    <div class="w-container viewdesignsection articlewindow">
-      <img class="vewdesignpicture articlepicture" src="{{imageUrl}}">
-      <p class="aboutdesign-text articletxt">{{summary}}</p>
+  <div class="w-clearfix viewdesigncontainer">
+    <h3 class="designheader">{{title}}</h3>
+    <div class="w-container viewdesignsection designwindow">
+      <img class="viewdesignpicture" src="{{imageUrl}}">
+      <p class="articletext">{{summary}}</p>
     </div>
   </div>
   <div class="headersection">
@@ -55,6 +55,16 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
   <script src="/js/introHCI.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48433853-2', { 'cookieDomain': 'none' });
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>
 

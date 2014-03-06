@@ -25,8 +25,7 @@ exports.addRequest = function(req, res) {
 }
 
 exports.viewRequest = function(req, res) {
-	//
-	var requests = data.requests;
+	 	var requests = data.requests;
 	var target = req.params.requestid;
 	console.log(requests);
 	console.log(target);

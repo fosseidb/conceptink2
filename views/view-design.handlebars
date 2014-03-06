@@ -7,9 +7,9 @@
   <title>Conceptink - view Design</title>
   <meta name="description" content="ConceptInk is a page meant for both tattoo artists and clients. Are you looking to get a tattoo but don't know what you want? Get inspired or post a request.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/webflow.css">
-  <link rel="stylesheet" type="text/css" href="css/conceptink.webflow.css">
+  <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="/css/webflow.css">
+  <link rel="stylesheet" type="text/css" href="/css/conceptink.webflow.css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   <script>
     WebFont.load({
@@ -27,28 +27,28 @@
 <body>
   <div class="spacefiller regular"></div>
   <div class="w-clearfix viewdesigncontainer">
-    <h1 class="designheader viking">&nbsp; Viking</h1><a class="artistlink design" href="./artist">Kat Von D</a>
+    <h1 class="designheader">{{title}}</h1>
+    <a class="artistlinkdesign" href="../artist/{{artistid}}">Kat Von D</a>
     <div class="w-clearfix viewdesignsection designwindow">
-      <img class="vewdesignpicture design" src="images/viking.jpg" width="150" alt="52fdd3c691b0b68d21001185_viking.jpg">
+      <img class="viewdesignpicture design" src="{{imageUrl}}" width="150" alt="52fdd3c691b0b68d21001185_viking.jpg">
       <div class="priceblock rating">
         <div class="price">Rating:</div>
-        <img class="dollars stars" src="images/starrating.png" width="65" alt="52fd798fc5f87e8c21000c43_starrating.png">
+        <img class="dollars stars" src="{{rating}}" width="65" alt="52fd798fc5f87e8c21000c43_starrating.png">
       </div>
       <div class="priceblock">
         <div class="price">Price:</div>
-        <img class="dollars" src="images/dollarRating.png" width="35" alt="52fddd82bfa4c1423f000404_dollarRating.png">
+        <img class="dollars" src="{{price}}" width="35">
       </div>
-      <div class="descriptionheader design price d">Description:</div>
-      <div class="aboutdesign-text design d">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+      <div class="articletext">{{description}}</div>
     </div>
   </div>
   <div class="headersection">
-    <a class="w-inline-block homebtn" href="./clienthome"></a>
-    <a class="w-inline-block searchbtn" href="./artist-roster-skull"></a>
-    <a class="w-inline-block requestsbtn" href="./yourrequests"></a>
-    <a class="w-inline-block homelogobtn" href="./clienthome"></a>
-    <a class="w-inline-block logoutbtn" href="./"></a>
-    <a class="w-inline-block myprofilebtn" href="./clientprofile"></a>
+    <a class="w-inline-block homebtn" href="../clienthome"></a>
+    <a class="w-inline-block searchbtn" href="../artist-roster-skull"></a>
+    <a class="w-inline-block requestsbtn" href="../yourrequests"></a>
+    <a class="w-inline-block homelogobtn" href="../clienthome"></a>
+    <a class="w-inline-block logoutbtn" href="../"></a>
+    <a class="w-inline-block myprofilebtn" href="../clientprofile"></a>
   </div>
   <ul class="w-list-unstyled list">
     <li>
@@ -64,5 +64,15 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
   <script src="/js/introHCI.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48433853-2', { 'cookieDomain': 'none' });
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>

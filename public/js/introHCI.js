@@ -9,6 +9,7 @@ $(document).ready(function() {
  * Function that is called when the document is ready.
  */
 function initializePage() {
+
 	$('.requestlistitem a').click(function(e) {
 		// Prevent following the link
 		e.preventDefault();
@@ -18,7 +19,7 @@ function initializePage() {
 		console.log('requestID ' + requestID);
 		// get rid of 'project' from the front of the id 'project3'
 		//var idNumber = projectID.substr('requestlistitem'.length);
-		//onsole.log('idNumber ' + idNumber);
+		//onsole.log('idNumber ' + idNumber); 
 		// this is the URL we'll call
 		var url_call = '/request/'+requestID;
 		console.log('url_Call ' +url_call);
