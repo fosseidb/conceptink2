@@ -60,10 +60,43 @@
       </div>
     </div>
   {{/each}}
+  {{#each results}}
+    <div class="artist-section">
+      <a class="artistlink" href="./artist/{{id}}">{{name}}</a>
+      <img class="starrating" src="{{rating}}">
 
+      <div class="w-container artist-window">
+        <a class="w-inline-block artistprofpic" href="./artist/{{id}}">
+            <img class"w-inline-block artistprofpic" src="{{imageUrl}}" width="120px">
+        </a>
+        <div class="w-slider w-clearfix slidercontainer" data-animation="slide" data-duration="500" data-infinite="1">
+          <div class="w-slider-mask portcontainer">
+            <div class="w-slide portfolioslide p2">
+              <a class="w-inline-block picturelink p1" href="./view-design"></a>
+            </div>
+            <div class="w-slide portfolioslide">
+              <a class="w-inline-block picturelink p2" href="./view-design"></a>
+            </div>
+            <div class="w-slide portfolioslide">
+              <a class="w-inline-block picturelink p3" href="./view-design"></a>
+            </div>
+            <div class="w-slide portfolioslide">
+              <a class="w-inline-block picturelink p4" href="./view-design"></a>
+            </div>
+          </div>
+          <div class="w-slider-arrow-left leftarrowcontainer">
+            <div class="w-icon-slider-left arrowlefty"></div>
+          </div>
+          <div class="w-slider-arrow-right arrowrightcontainer">
+            <div class="w-icon-slider-right arrowright"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {{/each}}
   <div class="w-container searchcontainer">
     <div class="w-form search-wrapper">
-      <form class="searchform" name="email-form" data-name="Email Form">
+      <form class="searchform" role="form" method="get" action="/artist-roster-skullSearched">
         <select class="w-select filterrolldown artist" name="filter" data-name="Filter">
           <option value="">City</option>
           <option value="First">Rating</option>

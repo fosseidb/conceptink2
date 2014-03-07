@@ -7,7 +7,7 @@
     "keywords": "A little desctiption goes in here, cuz its just a desctiption.",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
     "deadline": "1w",
-    "price": "../images/dollarRating.png",
+    "price": "../images/3d.png",
     "rating": "../images/2.png",
     "imageUrl": "../images/kvd1.jpg"
     },
@@ -18,31 +18,31 @@
     "keywords": "A little desctiption goes in here, cuz its just a desctiption.",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
     "deadline": "1m",
-    "price": "../images/dollarRating.png",
+    "price": "../images/2d.png",
     "rating": "../images/3.5.png",
     "imageUrl": "../images/yggdrasil.jpg"
     },
         {
     "id": "04",
     "artistid": "02",
-    "title": "London",
+    "title": "Wolf",
     "keywords": "A little desctiption goes in here, cuz its just a desctiption.",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
     "deadline": "1m",
-    "price": "../images/dollarRating.png",
+    "price": "../images/1d.png",
     "rating": "../images/5.png",
-    "imageUrl": "../images/convention01.jpg"
+    "imageUrl": "../images/wolfconcept.jpg"
     },
     {
     "id": "05",
     "artistid": "02",
-    "title": "Viking",
+    "title": "Angels and Deamon",
     "keywords": "A little desctiption goes in here, cuz its just a desctiption.",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
     "deadline": "1m",
-    "price": "../images/dollarRating.png",
+    "price": "../images/2d.png",
     "rating": "../images/4.png",
-    "imageUrl": "../images/viking.jpg"
+    "imageUrl": "../images/angelvsdeamon.jpg"
     },
         {
     "id": "06",
@@ -51,7 +51,7 @@
     "keywords": "A little desctiption goes in here, cuz its just a desctiption.",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
     "deadline": "1m",
-    "price": "../images/dollarRating.png",
+    "price": "../images/3d.png",
     "rating": "../images/2.5.png",
     "imageUrl": "../images/sugar-skull-1.jpg"
     }

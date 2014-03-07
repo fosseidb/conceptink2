@@ -22,13 +22,13 @@
 		},
 		{
 			"id": "03",
-			"name": "Alejandro",
+			"name": "Missy",
 			"age": "22",
 			"location": "Los Angeles",
 			"description": "Super cool. Does good Nordic stuff.",
 			"rating": "/images/5.png",
 			"summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
-			"imageUrl": "/images/katVD.jpg"
+			"imageUrl": "/images/Tattoo-Girl-Inked.jpg"
 		}
 	]
 }

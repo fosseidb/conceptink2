@@ -72,7 +72,10 @@ app.get('/request/:requestid', request.viewRequest);
 app.get('/request', request.addRequest);
 
 app.get('/artist-roster-skull', artistRosterSkull.viewArtistRosterSkull);
+app.get('/artist-roster-skullSearched', artistRosterSkull.viewArtistRosterSkullSearch);
 app.get('/design-roster-skull', designRosterSkull.viewDesignRosterSkull);
+app.get('/design-roster-skullSearched', designRosterSkull.viewDesignRosterSkullSearch);
+
 app.get('/signin', signin.viewSignin);
 app.get('/template', template.viewTemplate);
 app.get('/response', response.viewResponse);

@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Fri Feb 21 2014 18:07:55 GMT+0000 (UTC) -->
+<!-- Last Published: Fri Feb 21 2014 18:07:54 GMT+0000 (UTC) -->
 <html data-wf-site="52f06826a8b031ee5c0003d8">
 <head>
-
   <meta charset="utf-8">
-  <title>Conceptink - Design Roster</title>
+  <title>Conceptink - Artist Roster Skull</title>
   <meta name="description" content="ConceptInk is a page meant for both tattoo artists and clients. Are you looking to get a tattoo but don't know what you want? Get inspired or post a request.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
   <link rel="stylesheet" type="text/css" href="css/conceptink.webflow.css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
-  <script>WebFont.load({google: {families: ["Bitter:400,700","Montserrat:400,700","Changa One:400","Open Sans:300,400,600,700,800","Droid Sans:400,700","Balthazar:regular"]}});</script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ["Bitter:400,700","Montserrat:400,700","Changa One:400","Open Sans:300,400,600,700,800","Droid Sans:400,700","Balthazar:regular"]
+      }
+    });
+  </script>
   <script>
     if (/mobile/i.test(navigator.userAgent)) document.documentElement.className += ' w-mobile';
   </script>
@@ -21,41 +26,48 @@
 </head>
 <body>
   <div class="spacefiller"></div>
-  <div class="feedcontainer">
-    <ul class="w-list-unstyled newsfeed">
-      <li class="w-clearfix articlelistitem">
-      </li>
-      {{#each results}}
-          <li class="w-clearfix articlelistitem">
-            <a id="feedbutton" class="w-inline-block articleimage" href="./view-design/{{id}}">
-              <img src="{{imageUrl}}">
-              <div class="articlenametxt a1">{{title}}</div>
-            </a>
-          </li>
-      {{/each}}
-      {{#each designs}}
-          <li class="w-clearfix articlelistitem">
-            <a id="feedbutton" class="w-inline-block articleimage" href="./view-design/{{id}}">
-              <img src="{{imageUrl}}">
-              <div class="articlenametxt a1">{{title}}</div>
-            </a>
-          </li>
-      {{/each}}
-    </ul>
-  </div>
-  <div class="designbtn-section">
-    <a class="w-inline-block artistbttn" href="./artist-roster-skull"></a>
-    <a class="w-inline-block designbtn" href="./design-roster-skull"></a>
-  </div>
+  {{#each results}}
+    <div class="artist-section">
+      <a class="artistlink" href="./artist/{{id}}">{{name}}</a>
+      <img class="starrating" src="{{rating}}">
+
+      <div class="w-container artist-window">
+        <a class="w-inline-block artistprofpic" href="./artist/{{id}}">
+            <img class"w-inline-block artistprofpic" src="{{imageUrl}}" width="120px">
+        </a>
+        <div class="w-slider w-clearfix slidercontainer" data-animation="slide" data-duration="500" data-infinite="1">
+          <div class="w-slider-mask portcontainer">
+            <div class="w-slide portfolioslide p2">
+              <a class="w-inline-block picturelink p1" href="./view-design"></a>
+            </div>
+            <div class="w-slide portfolioslide">
+              <a class="w-inline-block picturelink p2" href="./view-design"></a>
+            </div>
+            <div class="w-slide portfolioslide">
+              <a class="w-inline-block picturelink p3" href="./view-design"></a>
+            </div>
+            <div class="w-slide portfolioslide">
+              <a class="w-inline-block picturelink p4" href="./view-design"></a>
+            </div>
+          </div>
+          <div class="w-slider-arrow-left leftarrowcontainer">
+            <div class="w-icon-slider-left arrowlefty"></div>
+          </div>
+          <div class="w-slider-arrow-right arrowrightcontainer">
+            <div class="w-icon-slider-right arrowright"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+
   <div class="w-container searchcontainer">
     <div class="w-form search-wrapper">
-      <form class="searchform" role="form" method="get" action="/design-roster-skullSearched">
-        <select class="w-select filterrolldown design" name="filter" data-name="Filter">
+      <form class="searchform" role="form" method="get" action="/artist-roster-skullSearched">
+        <select class="w-select filterrolldown artist" name="filter" data-name="Filter">
           <option value="">City</option>
-          <option value="rating">Rating</option>
-          <option value="title">Title</option>
-          <option value="priceh">Price - high first</option>
-          <option value="pricel">Price - low first</option>
+          <option value="First">Rating</option>
+          <option value="Second">Name</option>
         </select>
         <input class="w-input searchbar" type="text" placeholder="Enter search term" name="search" data-name="Search" autofocus="autofocus"></input>
         <input class="w-button submitsearch" type="submit" value="" wait="..." data-wait="..."></input>
@@ -67,6 +79,10 @@
         <p>Oops! Something went wrong while submitting the form :(</p>
       </div>
     </div>
+  </div>
+  <div class="artistbtn-section">
+    <a class="w-inline-block artistbttn" href="./artist-roster-skull"></a>
+    <a class="w-inline-block designbtn" href="./design-roster-skull"></a>
   </div>
   <div class="headersection">
     <a class="w-inline-block homebtn" href="./clienthome"></a>
@@ -95,7 +111,7 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
+  
   ga('create', 'UA-48433853-2', 'conceptink2.herokuapp.com');
   ga('send', 'pageview');
 

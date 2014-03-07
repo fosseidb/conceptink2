@@ -721,6 +721,7 @@ p {
     font-family: Bitter, serif;
     color: white;
     text-decoration: none;
+    text-align: justify;
   }
   .emptysection {
     position: relative;
@@ -1458,14 +1459,12 @@ p {
   .viewdesignpicture {
     width: 45%  ;
     margin-right: 10px;
-    margin-left: 10px;
     float: left; 
     border: 1px solid white;
   }
   .viewdesignpicture.articlepicture {
     overflow-x: visible;
     overflow-y: visible;
-    margin-right: 12px;
     margin-bottom: 1px;
     padding-right: 0px;
     float: left;
