@@ -27,11 +27,14 @@
 <body>
   <div class="spacefiller"></div>
   
+  {{#if feed}}
   <div class="feedcontainer">
     <ul class="w-list-unstyled newsfeed">
+      <li class="w-clearfix articlelistitem">
+      </li>
       {{#each designs}}
           <li class="w-clearfix articlelistitem">
-            <a class="w-inline-block articleimage" href="./view-design/{{id}}" id="intartcl">
+            <a id="feedbutton" class="w-inline-block articleimage" href="./view-design/{{id}}">
               <img src="{{imageUrl}}">
               <div class="articlenametxt a1">{{title}}</div>
             </a>
@@ -39,16 +42,20 @@
       {{/each}}
     </ul>
   </div>
+  {{else}}
+    {{#each designs}}
+      <div class="designsection">
+        <a id="gridbutton" class="w-inline-block designblock d1" href="./view-design/{{id}}">
+          <div class="designdescription">{{title}}</div>
+          <img class=
+          <img class="dollarrating" src="{{price}}" height="13.703">
+          <img class="designrating" src="{{rating}}">
+        </a>
+      </div>
+    {{/each}}
+  {{/if}}
 
-<!--   <div class="designsection">
-    <a class="w-inline-block designblock d1" href="./view-design">
-      <div class="designdescription">{{title}}</div>
-      <img class=
-      <img class="dollarrating" src="images/dollarRating.png" height="13.703" alt="52fddd82bfa4c1423f000404_dollarRating.png">
-      <img class="designrating" src="images/starrating.png" alt="52fd798fc5f87e8c21000c43_starrating.png">
-    </a>
-  </div> -->
-  
+
   <div class="designbtn-section">
     <a class="w-inline-block artistbttn" href="./artist-roster-skull"></a>
     <a class="w-inline-block designbtn" href="./design-roster-skull"></a>
@@ -102,7 +109,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-48433853-2', { 'cookieDomain': 'none' });
+  ga('create', 'UA-48433853-2', 'conceptink2.herokuapp.com');
   ga('send', 'pageview');
 
 </script>
