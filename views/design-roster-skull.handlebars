@@ -3,20 +3,6 @@
 <!-- Last Published: Fri Feb 21 2014 18:07:55 GMT+0000 (UTC) -->
 <html data-wf-site="52f06826a8b031ee5c0003d8">
 <head>
-  <!-- Google Analytics Content Experiment code -->
-<script>function utmx_section(){}function utmx(){}(function(){var
-k='83004400-0',d=document,l=d.location,c=d.cookie;
-if(l.search.indexOf('utm_expid='+k)>0)return;
-function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
-indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
-length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
-'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
-'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
-'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
-valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
-'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
-</script><script>utmx('url','A/B');</script>
-<!-- End of Google Analytics Content Experiment code -->
 
   <meta charset="utf-8">
   <title>Conceptink - Design Roster</title>
@@ -26,13 +12,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
   <link rel="stylesheet" type="text/css" href="css/conceptink.webflow.css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
-  <script>
-    WebFont.load({
-      google: {
-        families: ["Bitter:400,700","Montserrat:400,700","Changa One:400","Open Sans:300,400,600,700,800","Droid Sans:400,700","Balthazar:regular"]
-      }
-    });
-  </script>
+  <script>WebFont.load({google: {families: ["Bitter:400,700","Montserrat:400,700","Changa One:400","Open Sans:300,400,600,700,800","Droid Sans:400,700","Balthazar:regular"]}});</script>
   <script>
     if (/mobile/i.test(navigator.userAgent)) document.documentElement.className += ' w-mobile';
   </script>
@@ -41,8 +21,6 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 </head>
 <body>
   <div class="spacefiller"></div>
-  
-  {{#if feed}}
   <div class="feedcontainer">
     <ul class="w-list-unstyled newsfeed">
       <li class="w-clearfix articlelistitem">
@@ -57,23 +35,9 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
       {{/each}}
     </ul>
   </div>
-  {{else}}
-    {{#each designs}}
-      <div class="designsection">
-        <a id="gridbutton" class="w-inline-block designblock d1" href="./view-design/{{id}}">
-          <div class="designdescription">{{title}}</div>
-          <img class=
-          <img class="dollarrating" src="{{price}}" height="13.703">
-          <img class="designrating" src="{{rating}}">
-        </a>
-      </div>
-    {{/each}}
-  {{/if}}
-
-
   <div class="designbtn-section">
     <a class="w-inline-block artistbttn" href="./artist-roster-skull"></a>
-    <a class="w-inline-block designbtn" href="./design-roster-skull"></a>
+    <a class="w-inline-block designbtn" href="#"></a>
   </div>
   <div class="w-container searchcontainer">
     <div class="w-form search-wrapper">

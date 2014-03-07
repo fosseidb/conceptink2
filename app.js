@@ -73,7 +73,6 @@ app.get('/request', request.addRequest);
 
 app.get('/artist-roster-skull', artistRosterSkull.viewArtistRosterSkull);
 app.get('/design-roster-skull', designRosterSkull.viewDesignRosterSkull);
-app.get('/design-roster-skullFeed', designRosterSkull.viewDesignRosterSkullFeed);
 app.get('/signin', signin.viewSignin);
 app.get('/template', template.viewTemplate);
 app.get('/response', response.viewResponse);

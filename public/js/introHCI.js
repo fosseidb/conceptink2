@@ -60,14 +60,14 @@ function initializePage() {
 		// issue the GET request
 		$.get(url_call, addRequestDetails);
 	});
-	$('.designsection a').click(function(e) {
-		console.log("clicked gridbutton");
-		ga("send", "event", "designgridclick", "click");
-	})
-	$('a').click(function(e) {
-		console.log("clicked feedbutton");
-		ga("send", "event", "designfeedclick", "click");
-	})
+	// $('.designsection a').click(function(e) {
+	// 	console.log("clicked gridbutton");
+	// 	ga("send", "event", "designgridclick", "click");
+	// })
+	// $('a').click(function(e) {
+	// 	console.log("clicked feedbutton");
+	// 	ga("send", "event", "designfeedclick", "click");
+	// })
 
 	$('#newMemberSubmitButton').click(function(e) {
 		console.log('clicked');
@@ -128,7 +128,8 @@ function initializePage() {
 
 	$("#testjs").click(function(e) {
 
-	})
+	});
+
 }
 
 
