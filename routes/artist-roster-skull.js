@@ -10,17 +10,17 @@ exports.viewArtistRosterSkullSearch = function(req, res){
 	// controller code goes here
 	var keyword = req.query.search;
 	var keywordlst = keyword.split(" ");
-	console.log("keywordlist"= keywordlst);
+ 	console.log("test1");
 
 	var searchfilter = req.query.filter;
-	var artists = artistdata.designs;
+	var artists = artistdata.artists;
 	var results = {"results":[]};
 
 	for (var word in keywordlst) {
-		console.log("word: "+word);
+		console.log("word: "+ word);
 		for (var i=0; i< artists.length; i++)
 		{ 
-			if (artists[i].name == keywordlst[word] || artists[i].searchfilter == keywordlst[word]){
+			if (artists[i].name == keywordlst[word]){
 				results["results"].push(artists[i]);
 			}
 		}

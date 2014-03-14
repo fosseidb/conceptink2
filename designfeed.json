@@ -5,55 +5,60 @@
     "artistid": "01",
     "title": "Adam",
     "keywords": "A little desctiption goes in here, cuz its just a desctiption.",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+    "description": "Greyscale. The first of men, and the culprits of original sin. The rosework took about 2 hours.",
     "deadline": "1w",
     "price": "../images/3d.png",
     "rating": "../images/2.png",
-    "imageUrl": "../images/kvd1.jpg"
+    "imageUrl": "../images/kvd1.jpg",
+    "owner": "01"
     },
     {
     "id": "03",
     "artistid": "02",
     "title": "Yggdrasil",
     "keywords": "A little desctiption goes in here, cuz its just a desctiption.",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+    "description": "THe tree of life in Nordic mythology, the branches of Yggdrasil extend far into the heavens, and the tree is supported by three roots that extend far away into other locations; one to the well Urðarbrunnr in the heavens, one to the spring Hvergelmir, and another to the well Mímisbrunnr. Creatures live within Yggdrasil, including the wyrm (dragon) Níðhöggr, an unnamed eagle, and the stags Dáinn, Dvalinn, Duneyrr and Duraþrór.",
     "deadline": "1m",
     "price": "../images/2d.png",
     "rating": "../images/3.5.png",
-    "imageUrl": "../images/yggdrasil.jpg"
+    "imageUrl": "../images/yggdrasil.jpg",
+    "owner": "01"
     },
         {
     "id": "04",
     "artistid": "02",
     "title": "Wolf",
     "keywords": "A little desctiption goes in here, cuz its just a desctiption.",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+    "description": "Made upon request, this wolf concept took about 1 hour to sketch out. Since the client chose another piece, this design is half price.",
     "deadline": "1m",
     "price": "../images/1d.png",
     "rating": "../images/5.png",
-    "imageUrl": "../images/wolfconcept.jpg"
+    "imageUrl": "../images/wolfconcept.jpg",
+    "owner": "01"
     },
     {
     "id": "05",
     "artistid": "02",
     "title": "Angels and Deamon",
     "keywords": "A little desctiption goes in here, cuz its just a desctiption.",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+    "description": "Black and white concept. It can be made in to color upon request. Took about 4 hours and you can have it for about 400 bucks. The design is part of my good versus evil campaign.",
     "deadline": "1m",
     "price": "../images/2d.png",
     "rating": "../images/4.png",
-    "imageUrl": "../images/angelvsdeamon.jpg"
+    "imageUrl": "../images/angelvsdeamon.jpg",
+    "owner": ""
     },
         {
     "id": "06",
     "artistid": "02",
     "title": "Skull Candy",
     "keywords": "A little desctiption goes in here, cuz its just a desctiption.",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+    "description": "Designed for a lovely lady, this candy skull  with flowers were a dedication to her father. Took approx 3 hrs to sketch up and 2 sittings to ink inn.",
     "deadline": "1m",
     "price": "../images/3d.png",
     "rating": "../images/2.5.png",
-    "imageUrl": "../images/sugar-skull-1.jpg"
+    "imageUrl": "../images/sugar-skull-1.jpg",
+    "owner": ""
     }
   ]
 }

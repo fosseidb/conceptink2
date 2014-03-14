@@ -27,27 +27,20 @@
 <body>
   <div class="spacefiller regular"></div>
   <div class="articlesection">
-    <h3 class="designheader articleheader">{{name}}</h3>
+    <h3 class="designheader articleheader">{{user.name}}</h3>
     <div class="w-clearfix viewdesignsection artistwindow">
-      <img class="viewdesignpicture" src="{{profilePic}}" >
-      <p class="articletext">{{description}}</p>
+      <img class="viewdesignpicture" src="{{user.profilePic}}" >
+      <p class="articletext">{{user.description}}</p>
     </div>
   </div>
   <div class="portfolioslider-viewartist clientgallery-slider">
     <div class="w-slider slider" data-animation="slide" data-duration="500" data-infinite="1">
       <div class="w-slider-mask slidemask">
+        {{#each designs.designs}}
         <div class="w-slide slide1">
-          <a class="w-inline-block designlink s1 client" href="./view-design"></a>
+          <a class="w-inline-block designlink s1 client" href="./view-design"><img src="{{imageUrl}}"></a></a>
         </div>
-        <div class="w-slide slide1">
-          <a class="w-inline-block designlink s2 client" href="./view-design"></a>
-        </div>
-        <div class="w-slide slide1">
-          <a class="w-inline-block designlink s3" href="./view-design"></a>
-        </div>
-        <div class="w-slide slide1">
-          <a class="w-inline-block designlink s4 client" href="./view-design"></a>
-        </div>
+        {{/each}}
       </div>
       <div class="w-slider-arrow-left">
         <div class="w-icon-slider-left larrw"></div>
